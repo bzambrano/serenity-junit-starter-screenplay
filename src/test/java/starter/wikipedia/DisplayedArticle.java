@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class DisplayedArticle extends PageComponent {
 
-//    esta es una prueba del repositorio
+
     @FindBy(id="firstHeading")
     private WebElementFacade firstHeading;
 
