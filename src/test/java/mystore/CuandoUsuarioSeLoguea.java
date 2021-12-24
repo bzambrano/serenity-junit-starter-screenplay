@@ -15,7 +15,7 @@ public class CuandoUsuarioSeLoguea {
 
     Actor actor;
 
-    @Managed
+    @Managed(driver = "Edge")
     WebDriver navegador;
 
 
@@ -34,7 +34,6 @@ public class CuandoUsuarioSeLoguea {
         * El actor puede ver el subtitulo de la cuenta My account
         */
         actor.has(Decidido.ingresarConUsuarioYContrasena());
-
     }
 
 }
